@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane id="wrap"  xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" >
+   <HBox id="top" GridPane.rowIndex="0" GridPane.columnIndex="0" GridPane.columnSpan="3" alignment="TOP_RIGHT">
+      <Button fx:id="close" text="X"></Button>
+   </HBox>
+   <Button fx:id="previous" text="&lt;" GridPane.rowIndex="1" GridPane.columnIndex="0" />
+   <ImageView fx:id="imv" id="imv" fitHeight="300.0" fitWidth="500.0" GridPane.rowIndex="1" GridPane.columnIndex="1">
+   </ImageView>
+   <ImageView id="imv1" fitHeight="300" fitWidth="500" GridPane.rowIndex="1" GridPane.columnIndex="1">
+   </ImageView>
+   <Button fx:id="next" text="&gt;" GridPane.rowIndex="1" GridPane.columnIndex="2"/>
+   <HBox id="bot" GridPane.rowIndex="2" GridPane.columnIndex="0" GridPane.columnSpan="3"></HBox>
+</GridPane>

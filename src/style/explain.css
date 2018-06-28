@@ -1,0 +1,33 @@
+.button{
+    -fx-text-alignment: center;
+    -fx-font-size: 15;
+    -fx-font-family: Tahoma;
+    -fx-text-fill: white;
+    -fx-background-color: #96636a;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(three-pass-box,rgba(0,0,0,0.6),5,0.0,0,1);
+    -fx-border-radius: 25;
+    -fx-background-radius: 25;
+}
+.button:hover{
+    -fx-background-color: #b2505d;
+}
+#top,#bot{
+    -fx-min-height: 30;
+    -fx-background-color: #4e4d51;
+}
+#wrap{
+    -fx-background-color: #4e4d51;
+}
+#imv{
+    -fx-effect: dropshadow(three-pass-box,rgba(0,0,0,0.6),5,0.0,0,1);
+}
+#imv:pressed{
+    -fx-opacity: 0.2;
+}
+#imv1{
+    -fx-opacity: 0;
+}
+#imv1:pressed{
+    -fx-opacity: 0.8;
+}

@@ -1,0 +1,28 @@
+#1
+Class!Person,StoneDragon,Eat,Mulan,Earth
+Method!drink(),Mulan(),eat(),river(),dog(),sleep(),apple(),breathe(),getOlder()
+Field!wing,name,age,tail,gender,StoneDragon,ant,coffee,paper,September
+#2
+Class!Person,Zhou,Mulan,Dog,LiShang,Male
+Method!code(),rideHorse(),drive(),fight(),bark(),fly(),meow(),print(),matchmake(),static introduce()
+Field!name="Zhou",name="Mulan",name="Xiaohua",age=60,age=17,age=-5,gender=female,gender=male,gender=X
+#3
+Class!Mulan,Zhou,Person,Yao,LiShang
+Method!fly(),makeUp(),meow(),loveMan(),roar(),fight(),parachute(),smoke(),rideHorse(),static introduce()
+Field!name="LiShang",name="Mulan",name="Stone",age=17,age=-3,gender=female,gender=male,gender=X
+#4
+Class!MuShu,Dragon,ShanYu,Mulan,Xiaohua
+Method!review(),sewing(),fly(),cook(),meow(),reciteRules(),laugh(),makeCheatSheet(),study()
+Field!name="MatchMaker",height=170,hasTail=true,name="Stone",pet=StoneDragon
+#5
+Class!Person,Zhou,Mulan
+Method!code(),print(),drive(),rideHorse(),meow(),loveMan(),fight(),makeUp(),introduce(),fly()
+Field!"Zhou","Xiaohua",17,-5,60,male,female,X
+#6
+Class!Person,Zhou,Mulan
+Method!code(),Mulan:rideHorse(),Zhou:rideHorse(),Mulan:fight(),Zhou:fight(),Mulan:introduce(),Zhou:introduce(),makeUp(),loveMan(),fly()
+Field!name="Zhou",name="Xiaohua",age=17,age=-5,age=60,gender=male,gender=female,gender=X
+#7
+Class!Person,Zhou,Mulan
+Method!code(),print(),drive(),type(),meow(),loveMan(),makeUp(),fly(),shave()
+Field!"Zhou","Mulan","Xiaohua",27,-5,70,male,female,X

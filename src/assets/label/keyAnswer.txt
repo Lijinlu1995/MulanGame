@@ -1,0 +1,28 @@
+#1
+Class!Person
+Method!eat(),drink(),sleep(),getOlder(),breathe()
+Field!
+#2
+Class!Person,Extends,Zhou
+Method!rideHorse(),fight(),static introduce()
+Field!name="Zhou",age=60,gender=male
+#3
+Class!Zhou,Extends,Mulan
+Method!makeUp(),loveMan(),fight(),rideHorse(),static introduce()
+Field!name="Mulan",age=17,gender=female
+#4
+Class!teenMulan.
+Method!reciteRules()
+Field!
+#5
+Class:
+Method!soldierMulan.name=,soldierMulan.age=,soldierMulan.gender=
+Field!"Zhou",60,male
+#6
+Class!soldierMulan.,soldierMulan.,soldierMulan.
+Method!Mulan:rideHorse(),Mulan:fight(),Zhou:introduce()
+Field!
+#7
+Class!
+Method!soldierMulan.,soldierMulan.,,,,loveMan(),makeUp()
+Field!soldierMulan.name=,soldierMulan.age=,soldierMulan.gender=,,,"Mulan",27,female
