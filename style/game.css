@@ -1,0 +1,101 @@
+#wrap{
+    -fx-hgap: 10;
+    -fx-vgap: 10;
+    -fx-background-color: #4e4d51;
+    -fx-max-width: 1280;
+    -fx-max-height: 630;
+}
+#bg{
+    -fx-opacity: 0.2;
+}
+
+#leftTop,#leftBottom,#rightTop,#rightBottom{
+    -fx-min-width: 570;
+    -fx-min-height: 310;
+    -fx-max-height: 310;
+    -fx-background-radius: 25;
+    -fx-effect: dropshadow(three-pass-box,rgba(0,0,0,0.6),5,0.0,0,1);
+}
+#leftTop,#leftBottom{
+    -fx-alignment: center;
+    -fx-background-color: #343f3d;
+}
+#rightTop,#rightBottom{
+    -fx-hgap: 12;
+    -fx-vgap: 15;
+}
+
+#title{
+    -fx-fill: white;
+    -fx-font-family: Tahoma;
+    -fx-font-size: 20;
+}
+#right_c1,#right_c2,#right_c3{
+    -fx-min-width: 200;
+    -fx-background-radius: 25;
+    -fx-alignment: center;
+    -fx-fill: white;
+    -fx-font-family: "Al Bayan";
+    -fx-font-size: 20;
+    -fx-effect: dropshadow(three-pass-box,rgba(0,0,0,0.6),5,0.0,0,1);
+}
+#right_c1{
+    -fx-min-width: 120;
+    -fx-max-width: 120;
+}
+#ct{
+    -fx-fill: white;
+    -fx-font-family: Tahoma;
+    -fx-font-size: 20;
+}
+#right_c1,#ct1{
+    -fx-background-color: #587982;
+}
+#right_c2,#ct2{
+    -fx-background-color: #88895f;
+}
+#right_c3,#ct3{
+    -fx-background-color: #4c754d;
+}
+
+#ct1,#ct2,#ct3{
+    -fx-min-width: 80;
+    -fx-background-radius: 25;
+    -fx-alignment: center;
+    -fx-padding: 1 10 1 10;
+    -fx-effect: dropshadow(three-pass-box,rgba(0,0,0,0.6),5,0.0,0,1);
+}
+
+.button{
+    -fx-text-alignment: center;
+    -fx-font-size: 15;
+    -fx-font-family: Tahoma;
+    -fx-text-fill: white;
+    -fx-background-color: #96636a;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(three-pass-box,rgba(0,0,0,0.6),5,0.0,0,1);
+    -fx-border-radius: 25;
+    -fx-background-radius: 25;
+}
+.button:hover{
+    -fx-background-color: #b2505d;
+}
+
+#ct1:hover,#ct2:hover,#ct3:hover{
+    -fx-background-color: #b2505d;
+}
+
+#leftTop:pressed{
+    -fx-min-width: 1280;
+    -fx-min-height: 630;
+}
+
+#btGroup{
+    -fx-alignment: center-right;
+    -fx-hgap: 30;
+
+}
+
+#borderPane{
+    -fx-background-color: #4e4d51;
+}

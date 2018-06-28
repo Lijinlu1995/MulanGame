@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.Font?>
+<GridPane xmlns="http://javafx.com/javafx"
+          xmlns:fx="http://javafx.com/fxml"
+          fx:controller="controller.GameController"
+          fx:id="gridPane" id="wrap">
+    <padding><Insets top="10" bottom="10" left="10" right="10"></Insets></padding>
+    <HBox GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.columnSpan="2" GridPane.rowSpan="2" id="bg">
+        <ImageView fitWidth="1280" fitHeight="630" fx:id="backima">
+        </ImageView>
+    </HBox>
+    <HBox GridPane.rowIndex="0" GridPane.columnIndex="0" id="leftTop">
+        <ImageView fx:id="lefttopimv" fitWidth="530" fitHeight="275">
+        </ImageView>
+    </HBox>
+
+
+    <HBox GridPane.rowIndex="1" GridPane.columnIndex="0" id="leftBottom">
+        <ImageView fx:id="hintiv" fitWidth="530" fitHeight="275">
+        </ImageView>
+    </HBox>
+
+
+
+    <GridPane GridPane.rowIndex="0" GridPane.columnIndex="1" id="rightTop">
+        <VBox GridPane.rowIndex="0" GridPane.columnIndex="0" GridPane.columnSpan="6">
+            <Text text="Library Field" id="title"></Text>
+        </VBox>
+
+
+
+        <VBox GridPane.rowIndex="1" GridPane.columnIndex="0"  id="right_c1" GridPane.columnSpan="2">
+            <Text fx:id="lc" id="title" text="CLASS"></Text>
+        </VBox>
+        <VBox GridPane.rowIndex="2" GridPane.columnIndex="0" fx:id="lcb1" id="ct1">
+            <Text fx:id="c1" text="person" id="ct"></Text>
+        </VBox>
+        <VBox GridPane.rowIndex="3" GridPane.columnIndex="0" fx:id="lcb2" id="ct1">
+            <Text fx:id="c2" text="dog" id="ct"></Text>
+        </VBox>
+        <VBox GridPane.rowIndex="4" GridPane.columnIndex="0" fx:id="lcb3" id="ct1">
+            <Text fx:id="c3"  id="ct"></Text>
+        </VBox>
+        <VBox GridPane.rowIndex="5" GridPane.columnIndex="0" fx:id="lcb4" id="ct1">
+            <Text fx:id="c4"  id="ct"></Text>
+        </VBox>
+        <VBox GridPane.rowIndex="6" GridPane.columnIndex="0" fx:id="lcb5" id="ct1">
+            <Text fx:id="c5"  id="ct"></Text>
+        </VBox>
+
+
+
+
+        <VBox GridPane.rowIndex="1" GridPane.columnIndex="2" GridPane.columnSpan="2"  id="right_c2">
+            <Text fx:id="lm" id="title" text="METHOD"></Text>
+        </VBox>
+        <VBox GridPane.rowIndex="2" GridPane.columnIndex="2" fx:id="lmb1" id="ct2">
+            <Text fx:id="m1" text="eat" id="ct"></Text>
+        </VBox>
+        <VBox GridPane.rowIndex="3" GridPane.columnIndex="2" fx:id="lmb2" id="ct2">
+            <Text fx:id="m2" text="drink" id="ct"></Text>
+        </VBox>
+        <VBox GridPane.rowIndex="4" GridPane.columnIndex="2" fx:id="lmb3" id="ct2">
+            <Text fx:id="m3" text="breath" id="ct"></Text>
+        </VBox>
+        <VBox GridPane.rowIndex="5" GridPane.columnIndex="2" fx:id="lmb4" id="ct2">
+            <Text fx:id="m4" text="sleep" id="ct"></Text>
+        </VBox>
+        <VBox GridPane.rowIndex="6" GridPane.columnIndex="2" fx:id="lmb5" id="ct2">
+            <Text fx:id="m5" text="dance" id="ct"></Text>
+        </VBox>
+        <VBox GridPane.rowIndex="2" GridPane.columnIndex="3" fx:id="lmb6" id="ct2">
+            <Text fx:id="m6" text="bark" id="ct"></Text>
+        </VBox>
+        <VBox GridPane.rowIndex="3" GridPane.columnIndex="3" fx:id="lmb7" id="ct2">
+            <Text fx:id="m7" text="xxx" id="ct"></Text>
+        </VBox>
+        <VBox GridPane.rowIndex="4" GridPane.columnIndex="3" fx:id="lmb8" id="ct2">
+            <Text fx:id="m8" text="xxx" id="ct"></Text>
+        </VBox>
+        <VBox GridPane.rowIndex="5" GridPane.columnIndex="3" fx:id="lmb9" id="ct2">
+            <Text fx:id="m9" text="xxx" id="ct"></Text>
+        </VBox>
+        <VBox GridPane.rowIndex="6" GridPane.columnIndex="3" fx:id="lmb10" id="ct2">
+            <Text fx:id="m10" text="xxx" id="ct"></Text>
+        </VBox>
+
+
+
+
+        <VBox GridPane.rowIndex="1" GridPane.columnIndex="4" GridPane.columnSpan="2" id="right_c3">
+            <Text fx:id="lf" id="title" text="FIELD"></Text>
+        </VBox>
+        <VBox GridPane.rowIndex="2" GridPane.columnIndex="4" fx:id="lfb1" id="ct3">
+            <Text fx:id="f1"  id="ct"></Text>
+        </VBox>
+        <VBox GridPane.rowIndex="3" GridPane.columnIndex="4" fx:id="lfb2" id="ct3">
+            <Text fx:id="f2"  id="ct"></Text>
+        </VBox>
+        <VBox GridPane.rowIndex="4" GridPane.columnIndex="4" fx:id="lfb3" id="ct3">
+            <Text fx:id="f3"  id="ct"></Text>
+        </VBox>
+        <VBox GridPane.rowIndex="5" GridPane.columnIndex="4" fx:id="lfb4" id="ct3">
+            <Text fx:id="f4"  id="ct"></Text>
+        </VBox>
+        <VBox GridPane.rowIndex="6" GridPane.columnIndex="4" fx:id="lfb5" id="ct3">
+            <Text fx:id="f5"  id="ct"></Text>
+        </VBox>
+        <VBox GridPane.rowIndex="2" GridPane.columnIndex="5" fx:id="lfb6" id="ct3">
+            <Text fx:id="f6"  id="ct"></Text>
+        </VBox>
+        <VBox GridPane.rowIndex="3" GridPane.columnIndex="5" fx:id="lfb7" id="ct3">
+            <Text fx:id="f7"  id="ct"></Text>
+        </VBox>
+        <VBox GridPane.rowIndex="4" GridPane.columnIndex="5" fx:id="lfb8" id="ct3">
+            <Text fx:id="f8"  id="ct"></Text>
+        </VBox>
+        <VBox GridPane.rowIndex="5" GridPane.columnIndex="5" fx:id="lfb9" id="ct3">
+            <Text fx:id="f9" id="ct"></Text>
+        </VBox>
+        <VBox GridPane.rowIndex="6" GridPane.columnIndex="5" fx:id="lfb10" id="ct3">
+            <Text fx:id="f10"  id="ct"></Text>
+        </VBox>
+    </GridPane>
+
+
+
+
+
+
+
+
+
+    <GridPane GridPane.rowIndex="1" GridPane.columnIndex="1" id="rightBottom">
+        <VBox GridPane.rowIndex="0" GridPane.columnIndex="0" GridPane.columnSpan="6">
+            <Text id="title" text="Answer Sheet"></Text>
+        </VBox>
+
+
+
+
+
+        <VBox GridPane.rowIndex="1" fx:id="tcb1" GridPane.columnIndex="0" id="ct1">
+            <Text fx:id="tc1"  id="ct"></Text>
+        </VBox>
+        <VBox GridPane.rowIndex="2" fx:id="tcb2" GridPane.columnIndex="0" id="ct1">
+            <Text fx:id="tc2"  id="ct"></Text>
+        </VBox>
+        <VBox GridPane.rowIndex="3" fx:id="tcb3" GridPane.columnIndex="0" id="ct1">
+            <Text fx:id="tc3"  id="ct"></Text>
+        </VBox>
+        <VBox GridPane.rowIndex="4" fx:id="tcb4" GridPane.columnIndex="0" id="ct1">
+            <Text fx:id="tc4"  id="ct"></Text>
+        </VBox>
+        <VBox GridPane.rowIndex="5" fx:id="tcb5" GridPane.columnIndex="0" id="ct1">
+            <Text fx:id="tc5"  id="ct"></Text>
+        </VBox>
+        <GridPane GridPane.rowIndex="7" GridPane.columnIndex="0" GridPane.columnSpan="5" id="btGroup">
+            <VBox GridPane.columnIndex="0"><Button fx:id="previousChapter" text="previous chapter"></Button></VBox>
+            <VBox GridPane.columnIndex="1"><Button fx:id="explain" text="explain"></Button></VBox>
+            <VBox GridPane.columnIndex="2"><Button fx:id="reset" text="reset"></Button></VBox>
+            <VBox GridPane.columnIndex="3"><Button fx:id="submit" text="submit"></Button></VBox>
+        </GridPane>
+
+
+
+
+        <VBox GridPane.rowIndex="1" GridPane.columnIndex="2" fx:id="tmb1" id="ct2">
+            <Text fx:id="tm1"  id="ct"></Text>
+        </VBox>
+        <VBox GridPane.rowIndex="2" GridPane.columnIndex="2" fx:id="tmb2" id="ct2">
+            <Text fx:id="tm2"  id="ct"></Text>
+        </VBox>
+        <VBox GridPane.rowIndex="3" GridPane.columnIndex="2" fx:id="tmb3" id="ct2">
+            <Text fx:id="tm3"  id="ct"></Text>
+        </VBox>
+        <VBox GridPane.rowIndex="4" GridPane.columnIndex="2" fx:id="tmb4" id="ct2">
+            <Text fx:id="tm4"  id="ct"></Text>
+        </VBox>
+        <VBox GridPane.rowIndex="5" GridPane.columnIndex="2" fx:id="tmb5" id="ct2">
+            <Text fx:id="tm5"  id="ct"></Text>
+        </VBox>
+
+
+
+
+
+        <VBox GridPane.rowIndex="1" GridPane.columnIndex="3" fx:id="tmb6" id="ct2">
+            <Text fx:id="tm6"  id="ct"></Text>
+        </VBox>
+        <VBox GridPane.rowIndex="2" GridPane.columnIndex="3" fx:id="tmb7" id="ct2">
+            <Text fx:id="tm7"  id="ct"></Text>
+        </VBox>
+        <VBox GridPane.rowIndex="3" GridPane.columnIndex="3" fx:id="tmb8" id="ct2">
+            <Text fx:id="tm8"  id="ct"></Text>
+        </VBox>
+        <VBox GridPane.rowIndex="4" GridPane.columnIndex="3" fx:id="tmb9" id="ct2">
+            <Text fx:id="tm9"  id="ct"></Text>
+        </VBox>
+        <VBox GridPane.rowIndex="5" GridPane.columnIndex="3" fx:id="tmb10" id="ct2">
+            <Text fx:id="tm10"  id="ct"></Text>
+        </VBox>
+
+
+
+
+        <VBox GridPane.rowIndex="1" GridPane.columnIndex="4" fx:id="tfb1" id="ct3">
+            <Text fx:id="tf1" id="ct"></Text>
+        </VBox>
+        <VBox GridPane.rowIndex="2" GridPane.columnIndex="4" fx:id="tfb2" id="ct3">
+            <Text fx:id="tf2" id="ct"></Text>
+        </VBox>
+        <VBox GridPane.rowIndex="3" GridPane.columnIndex="4" fx:id="tfb3" id="ct3">
+            <Text fx:id="tf3"  id="ct"></Text>
+        </VBox>
+        <VBox GridPane.rowIndex="4" GridPane.columnIndex="4" fx:id="tfb4" id="ct3">
+            <Text fx:id="tf4"  id="ct"></Text>
+        </VBox>
+        <VBox GridPane.rowIndex="5" GridPane.columnIndex="4" fx:id="tfb5" id="ct3">
+            <Text fx:id="tf5"  id="ct"></Text>
+        </VBox>
+        <VBox GridPane.rowIndex="1" GridPane.columnIndex="5" fx:id="tfb6" id="ct3">
+            <Text fx:id="tf6"  id="ct"></Text>
+        </VBox>
+        <VBox GridPane.rowIndex="2" GridPane.columnIndex="5" fx:id="tfb7" id="ct3">
+            <Text fx:id="tf7"  id="ct"></Text>
+        </VBox>
+        <VBox GridPane.rowIndex="3" GridPane.columnIndex="5" fx:id="tfb8" id="ct3">
+            <Text fx:id="tf8" id="ct"></Text>
+        </VBox>
+        <VBox GridPane.rowIndex="4" GridPane.columnIndex="5" fx:id="tfb9" id="ct3">
+            <Text fx:id="tf9"  id="ct"></Text>
+        </VBox>
+        <VBox GridPane.rowIndex="5" GridPane.columnIndex="5" fx:id="tfb10" id="ct3">
+            <Text fx:id="tf10"  id="ct"></Text>
+        </VBox>
+    </GridPane>
+</GridPane>
