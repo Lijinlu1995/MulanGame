@@ -1,0 +1,8 @@
+#1
+Class:Person,dog,apple
+Method:eat,drink,sleep
+Field:age,name,height
+#2
+Class:Zhou,dog,apple
+Method:drink,eat,sleep
+Field:age=17,height=183,bubble,tea

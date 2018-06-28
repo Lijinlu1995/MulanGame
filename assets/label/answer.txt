@@ -1,0 +1,28 @@
+#1
+Class!drag here
+Method!drag here,drag here,drag here,drag here,drag here
+Field!
+#2
+Class!Person,Extends,drag here
+Method!drag here,drag here,drag here
+Field!drag here,drag here,drag here
+#3
+Class!Zhou,Extends,drag here
+Method!drag here,drag here,drag here,drag here,drag here
+Field!drag here,drag here,drag here
+#4
+Class!teenMulan.
+Method!drag here
+Field!
+#5
+Class!
+Method!soldierMulan.name=,soldierMulan.age=,soldierMulan.gender=
+Field!drag here,drag here,drag here
+#6
+Class!soldierMulan.,soldierMulan.,soldierMulan.
+Method!drag here,drag here,drag here
+Field!
+#7
+Class!
+Method!soldierMulan.,soldierMulan.,,,,drag here,drag here
+Field!soldierMulan.name=,soldierMulan.age=,soldierMulan.gender=,,,drag here,drag here,drag here
